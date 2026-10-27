@@ -1,0 +1,20 @@
+REQUIREMENTS
+
+Develop REST API endpoints for the following sections:
+
+1.About
+
+    Create a GET API endpoint /about/ that returns:
+        ID
+        Full name
+        professional title
+        Bio
+        DOB
+        Email
+        Contact
+        Location
+        Github URL
+        LinkedIn URL
+
+    Authentication : Not required
+    Success Status Code : 200 OK

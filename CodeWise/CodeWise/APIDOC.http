@@ -1,0 +1,60 @@
+# API view for Question List
+
+###
+GET http://127.0.0.1:8000/question/
+Accept: application/json
+
+# API view for Question view
+
+###
+POST http://127.0.0.1:8000/question/
+Content-Type: application/json
+
+{
+    "title":"Factorial using Recursion",
+    "language":"python",
+    "difficulty_level":"easy",
+    "score":5,
+    "topic":"Factorial of a number",
+    "notes":"Program to find the factorial using recursion",
+    "sample_input":5,
+    "sample_output":120
+}
+
+###
+GET http://127.0.0.1:8000/question/1/
+Accept: application/json
+
+###
+DELETE http://127.0.0.1:8000/question/4/
+Accept: application/json
+
+# API call for submission
+
+###
+GET http://127.0.0.1:8000/submissions/
+Accept: application/json
+
+
+###
+POST http://127.0.0.1:8000/submissions/
+Content-Type: application/json
+
+{
+     "question_id":4,
+     "answer":"Factorial",
+     "owner":"Jibu"
+}
+
+###
+GET http://127.0.0.1:8000/submissions/1/
+Accept: application/json
+
+###
+PUT http://127.0.0.1:8000/submissions/1/evaluate/
+Content-Type: application/json
+
+{
+    "points":5,
+    "remarks":"Average logic"
+}

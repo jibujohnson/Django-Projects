@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+myvenv/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Logs
+*.log
+
+# Django generated files
+staticfiles/
+
+# Operating system files
+.DS_Store
+Thumbs.db

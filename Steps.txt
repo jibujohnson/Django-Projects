@@ -1,0 +1,35 @@
+Microsoft Windows [Version 10.0.26300.9550]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\jibu\Django_Projects>django-admin startproject ShopProject
+
+C:\Users\jibu\Django_Projects>cd ShopProject
+
+C:\Users\jibu\Django_Projects\ShopProject>python -m venv venv
+
+C:\Users\jibu\Django_Projects\ShopProject>venv\scripts\activate
+
+(venv) C:\Users\jibu\Django_Projects\ShopProject>pip install django
+Collecting django
+  Using cached django-6.1.1-py3-none-any.whl.metadata (3.9 kB)
+Collecting asgiref>=3.9.1 (from django)
+  Using cached asgiref-3.12.1-py3-none-any.whl.metadata (9.4 kB)
+Collecting sqlparse>=0.5.0 (from django)
+  Using cached sqlparse-0.6.0-py3-none-any.whl.metadata (6.0 kB)
+Collecting tzdata (from django)
+  Downloading tzdata-2026.5-py2.py3-none-any.whl.metadata (1.4 kB)
+Using cached django-6.1.1-py3-none-any.whl (8.4 MB)
+Using cached asgiref-3.12.1-py3-none-any.whl (25 kB)
+Using cached sqlparse-0.6.0-py3-none-any.whl (50 kB)
+Downloading tzdata-2026.5-py2.py3-none-any.whl (347 kB)
+Installing collected packages: tzdata, sqlparse, asgiref, django
+Successfully installed asgiref-3.12.1 django-6.1.1 sqlparse-0.6.0 tzdata-2026.5
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+(venv) C:\Users\jibu\Django_Projects\ShopProject>python manage.py startapp MyApp
+
+(venv) C:\Users\jibu\Django_Projects\ShopProject>code .
+
+(myvenv) C:\Users\jibu\Django_Projects\Care_Connect>pip install djangorestframework

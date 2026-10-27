@@ -1,0 +1,42 @@
+###
+# METHOD URL
+# ACCEPT-TYPE | CONTENT-TYPE
+# AUTHORIZATION
+# BODY
+
+# API CALL FOR About
+###
+GET http://127.0.0.1:8000/about/
+Accept: application/json
+
+
+#API CALL FOR Education
+###
+GET http://127.0.0.1:8000/education/
+Accept: application/json
+
+
+# API CALL FOR PROJECTS
+###
+GET http://127.0.0.1:8000/projects/
+Accept: application/json
+
+# API CALL FOR SKILLS
+###
+GET http://127.0.0.1:8000/skills/
+Accept: application/json
+
+# API CALL FOR EXPERIENCE
+###
+GET http://127.0.0.1:8000/experience/
+Accept: application/json
+
+# API CALL FOR CERTIFICATIONS
+###
+GET http://127.0.0.1:8000/certifications/
+Accept: application/json
+
+# API CALL FOR SERVICES
+###
+GET http://127.0.0.1:8000/services/
+Accept: application/json

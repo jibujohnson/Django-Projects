@@ -1,0 +1,51 @@
+# API CALL FOR DOCTOR LIST VIEW.
+###
+GET http://127.0.0.1:8000/api/doctor/
+Accept: application/json
+
+# API CALL FOR POSTING DOCTOR.
+###
+POST http://127.0.0.1:8000/api/doctor/
+Content-Type: application/json
+
+{
+    "doctor_name":"Dr.Bean",
+    "specialization":"Physiology",
+    "experience":7,
+    "hospital":"New York Hospital",
+    "consulting_fee":800
+}
+
+# API CALL FOR GETTING A SPECIFIC ID
+###
+GET http://127.0.0.1:8000/api/doctor/2/
+Accept: application/json
+
+# API CALL FOR UPDATING A SPECIFIC ID
+###
+PUT http://127.0.0.1:8000/api/doctor/1/
+Content-Type: application/json
+
+{
+    "id": 1,
+    "doctor_name": "Dr.Johnson KD",
+    "specialization": "Cardiology",
+    "experience": 8,
+    "hospital": "Sunrise Hospital",
+    "consulting_fee": 1200,
+    "availability": true
+}
+
+# API CALL FOR DELETING AN ID
+###
+DELETE  http://127.0.0.1:8000/api/doctor/3/
+Accept: application/json
+
+
+#########################################################################
+
+
+# API CALL FOR APPOINTMENT LIST VIEW
+###
+GET http://127.0.0.1:8000/api/appointment/
+Accept: application/json
