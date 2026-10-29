@@ -25,3 +25,6 @@ staticfiles/
 # Operating system files
 .DS_Store
 Thumbs.db
+
+# Django SQLite database
+Care_Connect/db.sqlite3
