@@ -28,3 +28,4 @@ Thumbs.db
 
 # Django SQLite database
 Care_Connect/db.sqlite3
+Turf_Booking/db.sqlite3
