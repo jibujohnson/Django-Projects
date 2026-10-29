@@ -49,3 +49,16 @@ Accept: application/json
 ###
 GET http://127.0.0.1:8000/api/appointment/
 Accept: application/json
+
+# API CALL FOR APPOINTMENT BOOKING
+###
+POST http://127.0.0.1:8000/api/appointment/
+Content-Type: application/json
+
+{
+    "patient_name":"Jibu",
+    "phone":700900080,
+    "doctor_id":1,
+    "appointment_date":"2026-10-15",
+    "problem":"Fever"
+}
